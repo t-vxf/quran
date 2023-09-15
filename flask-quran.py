@@ -49,7 +49,7 @@ def home():
     aya= aya + " " + aya2
     text= iid + " " + iidd
     
-    return render_template('i.html',audio_url2=audio_url2,aya=aya,audio_url=audio_url,text=text)
+    return render_template('index.html',audio_url2=audio_url2,aya=aya,audio_url=audio_url,text=text)
 
 
 
