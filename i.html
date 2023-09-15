@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Static Text</title>
+    <style>
+        body {
+            background-color: #1B262C;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        .telegram-button {
+            background-color: #445069;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .static-text {
+            font-size: 30px;
+            font-weight: bold;
+            color: #AED2FF;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="marquee-container">
+        <div class="static-text">{{text}}</div>
+        <p></p>
+        <a class="telegram-button" href="https://t.me/bbzzs">اضغط هنا للانتقال إلى حسابي على تليجرام</a>
+    </div>
+</body>
+</html>
